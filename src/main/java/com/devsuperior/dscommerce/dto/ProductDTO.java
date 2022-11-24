@@ -27,7 +27,7 @@ public class ProductDTO {
         name = entity.getName();
         description = entity.getDescription();
         price = entity.getPrice();
-        imgUrl = entity.getImageUrl();
+        imgUrl = entity.getImgUrl();
     }
 
     public Long getId() {

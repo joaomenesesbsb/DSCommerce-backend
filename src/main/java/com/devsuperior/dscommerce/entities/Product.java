@@ -71,12 +71,12 @@ public class Product {
         this.price = price;
     }
 
-    public String getImageUrl() {
+    public String getImgUrl() {
         return imgUrl;
     }
 
-    public void setImageUrl(String imageUrl) {
-        this.imgUrl = imageUrl;
+    public void setImgUrl(String imageUrl) {
+        this.imgUrl = imgUrl;
     }
 
     public Set<Category> getCategories() {
