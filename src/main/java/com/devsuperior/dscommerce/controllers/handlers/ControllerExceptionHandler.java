@@ -1,11 +1,9 @@
 package com.devsuperior.dscommerce.controllers.handlers;
 
 import com.devsuperior.dscommerce.dto.CustomError;
-import com.devsuperior.dscommerce.dto.FieldMessage;
 import com.devsuperior.dscommerce.dto.ValidationError;
 import com.devsuperior.dscommerce.exeptions.DatabaseExeption;
 import com.devsuperior.dscommerce.exeptions.RecourceNotFoundExeption;
-import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -13,6 +11,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import javax.servlet.http.HttpServletRequest;
 import java.time.Instant;
 
 @ControllerAdvice
