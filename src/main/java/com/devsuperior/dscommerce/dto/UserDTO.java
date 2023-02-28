@@ -3,7 +3,6 @@ package com.devsuperior.dscommerce.dto;
 import com.devsuperior.dscommerce.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 
-import javax.persistence.Column;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +26,7 @@ public class UserDTO {
 
     public UserDTO(User entity) {
         id = entity.getId();
-        name = entity.getUsername();
+        name = entity.getName();
         email = entity.getEmail();
         phone = entity.getPhone();
         birthDate = entity.getBirthDate();
