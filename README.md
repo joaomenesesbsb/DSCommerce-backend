@@ -1,10 +1,5 @@
 
-# Título do Projeto
-
-DSCommerce backend
-
-
-## Apêndice
+#DSCommerce backend
 
 [![GPL License](https://img.shields.io/badge/License-GPL-yellow.svg)](https://opensource.org/licenses/)
 
@@ -12,9 +7,6 @@ Projeto desenvolvido teve o objetivo de criar um API Rest e-commerce, utilizando
 
 
 ## Stack utilizada
-
-Adicione etiquetas de algum lugar, como: [shields.io](https://shields.io/)
-
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
 
